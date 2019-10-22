@@ -1,0 +1,51 @@
+* {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+}
+header {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+header h2 {
+  color: #ccc;
+}
+
+section {
+  width: 100%;
+  margin: auto;
+}
+
+section nav {
+  float: left;
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 300px;
+}
+
+nav ul {
+  list-style-type: none;
+ 
+}
+section article {
+  width: 80%;
+  font-size: 12px;
+  float: left;
+}
+section article p, section article h3 {
+  padding-left: 25px;
+}
+footer {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  background-color: #555;
+  padding: 25px;
+  color: #ccc;
+}
