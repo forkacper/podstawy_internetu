@@ -45,3 +45,6 @@ footer {
   padding: 25px;
   color: #ccc;
 }
+section article a {
+    margin-left: 50px;
+}
