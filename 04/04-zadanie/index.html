@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <title>Zadanie 04 - Layout Bootstrap</title>
+  </head>
+  <body>
+      <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <a class="navbar-brand" href="#" ><img width="100px" height="64px" src="logo.png" alt="logo"></a>
+
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Strona główna <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">O mnie</a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Coś tam</a>
+                      </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">I coś tam</a>
+                      </li>
+                     
+                    </ul>
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                              <i class="fab fa-facebook-f"></i> Facebook
+                              <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <i class="fab fa-instagram"></i> Instagram</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <i class="fas fa-user"></i> Profile </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                              <a class="dropdown-item" href="#">Moje konto</a>
+                              <a class="dropdown-item" href="#">Wyloguj się</a>
+                            </div>
+                          </li>
+                        </ul>
+                  </div>
+                </nav>
+    </header>
+      <main role="main">
+        
+        <div class="container-fluid page-content">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <form>
+                      <div class="form-group">
+                          <h2 class="text-center">Zarejestruj się</h2>
+                        <label for="exampleInputEmail1">Adres E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Wpisz swój adres email..">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Hasło</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Wpisz hasło..">
+                      </div>
+                      <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Zapamiętaj mnie.</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Zarejestruj się</button>
+                    </form>
+                </div>
+                <div class="col-12 col-md-9">
+                    <h2>What is Lorem Ipsum?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices nibh ut elit elementum, in tempor mi suscipit. Praesent ornare eros ligula, ac rhoncus sem finibus ac. Aliquam erat volutpat. Integer a elementum felis. Etiam ac fringilla leo, eu venenatis velit. Ut a vehicula arcu. Pellentesque interdum, leo eu laoreet bibendum, lacus lacus ultricies ex, ac congue purus purus non ligula. Ut vitae urna facilisis, dignissim felis tempor, posuere massa. Sed malesuada ligula arcu, eget venenatis tellus laoreet id. Sed tincidunt ornare auctor. Aenean maximus urna vitae nulla molestie, quis porttitor nunc vulputate.</p>
+                    <p>Vivamus faucibus consequat sapien quis sagittis. Nam eget est ligula. Fusce imperdiet lacus eget enim sollicitudin, id iaculis magna ornare. Quisque non neque vitae neque laoreet sodales eget a elit. Fusce at elit non neque ultricies elementum a non nibh. Mauris ornare fringilla dui vel venenatis. Nunc lobortis, lectus eu dictum vulputate, risus ligula pharetra eros, sed dapibus dui metus sed libero. Vestibulum malesuada neque vel ipsum molestie, sit amet suscipit erat suscipit. Aenean malesuada ultrices lorem id mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur ante elit, tincidunt a mattis nec, accumsan in tortor. Nunc auctor massa ut mollis placerat. Mauris ac diam in leo pellentesque ornare vitae vitae risus.</p>
+                </div>
+            </div>
+            
+        </div>
+      </main>
+       <footer id="footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>2019 &copy; Wszelkie prawa zastrzeżone.</small>
+        </div>
+    </footer>
+    <!-- jQuery, Popper.js, Bootstrap JS, Font Awesome -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
+  </body>
+</html>
