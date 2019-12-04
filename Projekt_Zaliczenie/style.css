@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+    color: #444 !important;
+}
+
+.container h2 {
+    font-weight: 700;
+    font-size: 36px;
+    border-bottom: 1px solid #000;
+
+}
+
+.powrot-do-gory i {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 48px;
+    color: #fff;
+    border: 1px solid #FB090B;
+    background-color: #FB090B;
+    border-radius: 25px;
+    z-index: 100;
+}
+
+table .zawodnik {
+    margin-left: 15px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.card-body > h5 {
+    font-weight: 700;
+    color: #222;
+}
+
+.card-body > p {
+    color: #444;
+}
+
+.card div > ol {
+    list-style: none;
+}
